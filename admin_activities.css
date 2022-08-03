@@ -1,0 +1,181 @@
+                                                                /* Info table Style */
+
+table {
+border-collapse: collapse;
+border-spacing: 0;
+width: 100%;
+border: 1px solid #ddd;
+background-color: rgb(188, 182, 229)
+}
+
+th, td {
+text-align: left;
+padding: 16px;
+}
+
+tr:nth-child(odd) {
+background-color: #f2f2f2;
+}
+
+
+
+                                                /*modal desgin */
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+
+.modal {
+display: none; 
+position: fixed;
+z-index: 1; 
+padding-top: 100px; 
+left: 0;
+top: 0;
+width: 100%; 
+height: 100%;
+overflow: auto; 
+background-color: rgb(0,0,0); 
+background-color: rgba(0,0,0,0.4);
+}
+
+                                                /* Modal Content */
+.modal-content {
+position: relative;
+background-color: #fefefe;
+margin: auto;
+padding: 0;
+border: 1px solid #888;
+width: 80%;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+-webkit-animation-name: animatetop;
+-webkit-animation-duration: 0.4s;
+animation-name: animatetop;
+animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+from {top:-300px; opacity:0} 
+to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+from {top:-300px; opacity:0}
+to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+color: white;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+color: #000;
+text-decoration: none;
+cursor: pointer;
+}
+
+.modal-header {
+padding: 2px 16px;
+background-color: #5cb85c;
+color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+padding: 2px 16px;
+background-color: #5cb85c;
+color: white;
+}
+
+.activities_div{
+
+border-style: groove;
+position:absolute;
+height: 800px;
+width: 400px;
+border: 2px ;
+left: 100px;
+top: 100px;
+background-image: url(adminMenu.jpg);
+background-size: cover;
+}
+
+/*button*/
+.btn {
+border: 2px solid black;
+background-color: white;
+color: black;
+padding: 14px 28px;
+font-size: 16px;
+cursor: pointer;
+}
+/* Green */
+.success {
+border-color: #4CAF50;
+color: green;
+}
+
+.success:hover {
+background-color: #4CAF50;
+color: white;
+}
+
+/* Blue */
+.info {
+border-color: #2196F3;
+color: dodgerblue;
+}
+
+.info:hover {
+background: #2196F3;
+color: white;
+}
+
+/* Orange */
+.warning {
+border-color: #ff9800;
+color: orange;
+}
+
+.warning:hover {
+background: #ff9800;
+color: white;
+}
+
+/* Red */
+.danger {
+border-color: #f44336;
+color: red;
+}
+
+.danger:hover {
+background: #f44336;
+color: white;
+}
+
+/* Gray */
+.default {
+border-color: #e7e7e7;
+color: black;
+}
+
+.default:hover {
+background: #e7e7e7;
+}
+
+.flightdiv{
+
+height: 800px;
+width: 1400px;
+background-image: url(adminPage.jpg);
+background-size: cover;
+left: 505px;
+top: 100px;
+
+}

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="employee_signup.css">
+    <title>Flight Booking</title>
+
+    
+</head>
+<body>
+    
+<div class="container position-relative" style="background-image: url(sky.jpg);background-size: cover; top: 40px;" >
+   
+    <form action="/action_page.php">
+      <div class="row">
+        <div class="col-25">
+          <label style="font-size: larger; color: aliceblue;" for="fname">User Name:</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="fname" name="firstname" placeholder="Enter user name..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label style="font-size: larger; color: aliceblue;" for="Departure">Departure:</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="Departure" name="Departure" placeholder="Enter Departure..">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-25">
+          <label style="font-size: larger; color: aliceblue;" for="Destination">Destination:</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="Destination" name="Destination" placeholder="Enter Destination..">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-25">
+          <label style="font-size: larger; color: aliceblue;" for="imp">Importance:</label>
+        </div>
+        <div class="col-75">
+          <select id="imp" name="imp">
+            <option value="Urgent">Urgent</option>
+            <option value="Usual">Usual</option>
+          </select>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-25">
+          <label style="font-size: larger; color: aliceblue;" for="cls">Class:</label>
+        </div>
+        <div class="col-75">
+          <select id="cls" name="imp">
+            <option value="Business">Business</option>
+            <option value="Regular">Regular</option>
+            <option value="Local">Local</option>
+          </select>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-25">
+          <label style="font-size: larger; color: aliceblue;" for="Phone">Phone Number:</label>
+        </div>
+        <div class="col-75">
+          <input type="tel" id="Phone" name="Phone" placeholder="Enter your Phone NO">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-25">
+          <label style="font-size: larger; color: aliceblue;" for="email">Phone Email:</label>
+        </div>
+        <div class="col-75">
+          <input type="email" id="email" name="email" placeholder="Enter Your Email address..">
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-25">
+          <label style="font-size: larger; color: aliceblue;" for="count">Number of tickets:</label>
+        </div>
+        <div class="col-75">
+          <input  type="number" id="count" name="count" placeholder="Enter number of tickets..">
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-25">
+          <label style="font-size: larger; color: aliceblue;" for="day">Day:</label>
+        </div>
+        <div class="col-75">
+          <select id="day" name="day">
+            <option value="Sutarday">Sutarday</option>
+            <option value="Sunday">Sunday</option>
+            <option value="Monday">Monday</option>
+            <option value="Tuesday">Tuesday</option>
+            <option value="Wednesday">Wednesday</option>
+            <option value="Thursday">Thursday</option>
+            <option value="Friday">Friday</option>
+             </select>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-25">
+          <label style="font-size: larger; color: aliceblue;" for="date">Flight date:</label>
+        </div>
+        <div class="col-75">
+          <input type="date" id="date" name="date" placeholder="Enter flight date..">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-25">
+          <label style="font-size: larger; color: aliceblue;" for="password">Password:</label>
+        </div>
+        <div class="col-75">
+          <input type="password" id="password" name="password" placeholder="Type your Password">
+        </div>
+      </div>
+
+
+      <div class="row" style="float: right;">
+        <input type="submit" value="Send flight Request">
+      </div>
+    </form>
+  </div>
+  <div class="icon-bar position-absolute" style="top: 200px;">
+    <a class="active" href="Airlines_Homepage.html"><i class="fa fa-home"></i></a> 
+    <a href="#"><i class="fa fa-search"></i></a> 
+    <a href="#"><i class="fa fa-ban"></i></a> 
+    <a href="#"><i class="fa fa-whatsapp"></i></a>
+    <a href="#"><i class="fa fa-facebook"></i></a> 
+  </div>
+
+
+</body>
+</html>

@@ -1,0 +1,100 @@
+.top-menu{
+    float:unset;
+  }
+  .top-menu ul li{
+    display: inline-block;
+    padding: 5px 15px 0px 15px;
+  }
+  .top-menu ul li a{
+    font-size: 1.3em;
+    color: rgb(250, 247, 246);
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align:justify;
+    
+  }
+  .top-menu ul li a:hover {
+    color: #160b0b;
+    
+    
+  }
+  .top-menu ul li a.active {
+    color: #fcf9f9;
+    font-weight: 400;
+  } 
+  nav a {
+    position: relative;
+    display: inline-block;
+    outline: none;
+    color: #fff;
+    text-decoration: aqua;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    font-weight: 400;
+    text-shadow: 0 0 5px rgba(255,255,255,0.3);
+    font-size: 1.3em;
+    text-align: center;
+  }
+  
+  nav a:hover,
+  nav a:focus {
+    outline: grey;
+  }
+  /* Effect 5: same word slide in */
+  .cl-effect-5 a {
+    overflow: hidden;
+  }
+  
+  .cl-effect-5 a span {
+    position: relative;
+    display: inline-block;
+    -webkit-transition: -webkit-transform .3s;
+    -moz-transition: -moz-transform .3s;
+    transition: transform .3s;
+  }
+  
+  .cl-effect-5 a span::before {
+    position: absolute;
+    top: 100%;
+    content: attr(data-hover);
+    font-weight: 400;
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+  }
+  
+  .cl-effect-5 a:hover span,
+  .cl-effect-5 a:focus span {
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+  
+  .div1{
+    background-image: url("backgr.jpg");
+    
+    text-align: center;
+    height: 720px;
+    width: 1000px;
+
+   
+
+  }
+  .texstl{
+    text-align: center;
+    color: #fff;
+    cursor: grabbing;
+    font-family: serif;
+    flex-grow: initial;
+  }
+.textstl{
+
+  text-align: center;
+  padding: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.logo{
+  background-image: url("logo.png");
+  
+}

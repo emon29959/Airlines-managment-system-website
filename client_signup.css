@@ -1,0 +1,105 @@
+                                            /*form desgin*/
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: 2px solid rgba(116, 108, 108, 0.945);
+  background: #f1eded;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: rgb(255, 255, 255);
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* all buttons */
+button {
+  background-color: #db0606;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup */
+.cancelbtn {
+  float: right;
+  width: 30%;
+}
+.signupbtn {
+  float: left;
+  width: 30%;
+}
+
+/* Add padding */
+.container {
+  padding: 16px;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+
+
+                                /*vertital Nav bar desgin */
+
+.icon-bar {
+width: 90px;
+background-color: #555;
+}
+
+.icon-bar a {
+display: block;
+text-align: center;
+padding: 16px;
+transition: all 0.3s ease;
+color: white;
+font-size: 36px;
+}
+
+.icon-bar a:hover {
+background-color: #000;
+}
+
+.active {
+background-color: #4CAF50;
+}
